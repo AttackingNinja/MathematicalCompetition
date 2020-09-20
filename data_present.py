@@ -16,5 +16,5 @@ for i in range(9):
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 plt.xlabel('训练集占总数据比')
 plt.ylabel('测试集预测准确率')
-plt.show()
 plt.savefig('准确率变化图')
+plt.show()
